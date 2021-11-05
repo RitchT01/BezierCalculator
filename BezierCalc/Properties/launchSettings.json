@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "BezierCalc": {
+      "commandName": "Project",
+      "commandLineArgs": "--point0 10 90 --point1 60 100 --point2 130 420 --point3 240 0 --intervals 5 --output ./output.csv",
+      "workingDirectory": "$(ProjectDir)"
+    }
+  }
+}
