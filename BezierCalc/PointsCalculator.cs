@@ -10,7 +10,7 @@ namespace BezierCalc
 
             var interval = options.CalculateInterval();
 
-            for (var t = 0m; t < 1.0m; t += interval)
+            for (var t = 0m; t < 1m; t += interval)
             {
                 points.Add(options.CreateBezierPoint(t));
             }
